@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo editor | Image uploader | geekidharsh</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="image-uploader.js"></script>
+</head>
+
+<body>
+    <h1>Image Uploader</h1>
+    
+    <form id="imageUploadForm" action="#" method="post" enctype="multipart/form-data">
+        <label for="fileInput">Select Images (Up to 10)</label>
+        <input type="file" id="fileInput" name="fileInput" accept="image/*" multiple />
+        <button type="submit" id="uploadButton">Upload</button>
+    </form>
+    <div id="imagePreview">
+        <!-- Image preview will be displayed here -->
+    </div>
+    <!-- Loading container -->
+    <div id="loadingContainer" class="hidden">
+        <div class="loader"></div>
+        Loading image previews...
+    </div>
+
+    <!-- Display "Images Currently Selected" -->
+    <div id="selectedImagesLabel">No image selected</div>
+
+    <div class="separator"></div>
+    <footer>
+        <p>&copy; 2023 @geekidharsh. All rights reserved.</p>
+    </footer>
+ </body>

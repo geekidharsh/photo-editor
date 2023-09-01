@@ -1,0 +1,8 @@
+
+- select and upload one or more images - done
+- show preview of the images selected 
+- upload and store images using a web app, flask etc.
+
+
+- change select image button to reflect that there are images selected already
+- add a circular loader
